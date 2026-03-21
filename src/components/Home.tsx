@@ -22,7 +22,7 @@ export default function Home() {
         className="w-32 h-32 rounded-full object-cover shadow-lg mb-6 ring-4 ring-indigo-500/30 animate-float"
       />
       <h1 className="text-5xl font-bold text-white mb-3 animate-fade-up">
-        Hi, I'm <span className="text-indigo-400">Nguyen Huu Sang</span>
+        Hi, I'm <span className="text-indigo-400">Sang</span>
       </h1>
       <p className="text-xl text-indigo-300 mb-4 animate-fade-up delay-100">Cloud Engineer</p>
       <p className="text-slate-400 max-w-xl mb-8 animate-fade-up delay-200">
