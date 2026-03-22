@@ -6,7 +6,7 @@ const certs = [
     href: "https://www.credly.com/earner/earned/badge/ac543051-df48-4015-8dd6-5057ba1fd99b",
   },
   {
-    name: "AWS Certified CloudOps Engineer - Associate",
+    name: "AWS Certified SysOps Administrator - Associate",
     level: "Associate",
     img: "https://images.credly.com/size/340x340/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
     href: "https://www.credly.com/earner/earned/badge/your-badge-id-here",
@@ -52,16 +52,14 @@ export default function Home() {
         <a href="https://www.linkedin.com/in/nguyensangscom/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">LinkedIn</a>
         <a href="https://github.com/hs-nguyen?tab=repositories" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">GitHub</a>
         <a href="mailto:huusangnguyen092@gmail.com" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Gmail</a>
-        <a href="/resume.pdf" download className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Resume</a>
+        <a href="https://hs-nguyen.hashnode.dev" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Blogs</a>
+        <a href="https://workshop.cloud-sangnguyen.click" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Workshops</a>
       </div>
 
       {/* CTA Buttons */}
       <div className="flex gap-4 animate-fade-up delay-500">
         <a href="#projects" className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-500 transition-colors">
           View Projects
-        </a>
-        <a href="mailto:huusangnguyen092@gmail.com" className="px-6 py-3 border border-slate-600 text-slate-300 rounded-lg font-medium hover:bg-slate-800 transition-colors">
-          Get in Touch
         </a>
       </div>
     </section>
