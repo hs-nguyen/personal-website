@@ -9,7 +9,7 @@ const certs = [
     name: "AWS Certified SysOps Administrator - Associate",
     level: "Associate",
     img: "https://images.credly.com/size/340x340/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
-    href: "https://www.credly.com/earner/earned/badge/your-badge-id-here",
+    href: "https://www.credly.com/earner/earned/badge/f5f588f0-e04f-4f90-8415-42cd9f4d05f7",
   },
 ];
 
@@ -22,9 +22,9 @@ export default function Home() {
         className="w-32 h-32 rounded-full object-cover shadow-lg mb-6 ring-4 ring-indigo-500/30 animate-float"
       />
       <h1 className="text-5xl font-bold text-white mb-3 animate-fade-up">
-        Hi, I'm <span className="text-indigo-400">Sang</span>
+        Nguyễn Hữu Sáng <span className="text-indigo-400"></span>
       </h1>
-      <p className="text-xl text-indigo-300 mb-4 animate-fade-up delay-100">Cloud Engineer</p>
+      <p className="text-xl text-indigo-300 mb-4 animate-fade-up delay-100">Cloud Operations Engineer</p>
       <p className="text-slate-400 max-w-xl mb-8 animate-fade-up delay-200">
         I design and build scalable cloud infrastructure on AWS — from serverless architectures
         and container orchestration to CI/CD pipelines and infrastructure as code.
@@ -53,7 +53,7 @@ export default function Home() {
         <a href="https://github.com/hs-nguyen?tab=repositories" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">GitHub</a>
         <a href="mailto:huusangnguyen092@gmail.com" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Gmail</a>
         <a href="https://hs-nguyen.hashnode.dev" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Blogs</a>
-        <a href="https://workshop.cloud-sangnguyen.click" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Workshops</a>
+        <a href="https://workshops.hsnguyenaws.me" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-400 transition-colors font-medium">Workshops</a>
       </div>
 
       {/* CTA Buttons */}

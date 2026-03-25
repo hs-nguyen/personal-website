@@ -3,7 +3,7 @@ const projects = [
     title: "My Production Ready Containerized Three-Tier Web Application",
     desc: "Event-driven REST API using AWS Lambda, API Gateway, and DynamoDB with full IaC via Terraform.",
     tags: ["AWS Lambda", "API Gateway", "DynamoDB", "Terraform"],
-    demo: "https://www.hsnguyenaws.me",
+    demo: "https://workshops.hsnguyenaws.me",
     code: "https://github.com/hs-nguyen/hashnode-blogs",
   },
   {
