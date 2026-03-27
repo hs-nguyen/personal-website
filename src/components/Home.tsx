@@ -6,9 +6,9 @@ const certs = [
     href: "https://www.credly.com/earner/earned/badge/ac543051-df48-4015-8dd6-5057ba1fd99b",
   },
   {
-    name: "AWS Certified SysOps Administrator - Associate",
+    name: "AWS Certified CloudOps Engineer - Associate",
     level: "Associate",
-    img: "https://images.credly.com/size/340x340/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
+    img: "/cloudops-badge.png",
     href: "https://www.credly.com/earner/earned/badge/f5f588f0-e04f-4f90-8415-42cd9f4d05f7",
   },
 ];
