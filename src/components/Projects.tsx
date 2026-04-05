@@ -25,7 +25,7 @@ const projects: Project[] = [
     //   { value: "95.21%", label: "Accuracy" },
     //   { value: "5,840", label: "Images" },
     // ],
-    tags: ["Terraform", "AWS"],
+    tags: ["Terraform", "AWS", "GitHub Actions"],
     code: "https://workshops.hsnguyenaws.me",
     repo: "https://github.com/hs-nguyen/bookshop-ecommerce",
   },

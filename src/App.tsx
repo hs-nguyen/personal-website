@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-// import Skills from "./components/Skills";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 // import Resume from "./components/Resume";
 import Connect from "./components/Connect";
@@ -13,7 +13,7 @@ export default function App() {
       <main className="pt-14">
         <Home />
         <About />
-        {/* <Skills /> */}
+        <Skills />
         <Projects />
         {/* <Resume /> */}
         <Connect />
