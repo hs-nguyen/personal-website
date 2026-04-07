@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <section id="resume" className="py-24 px-6 bg-[#0f1a20]">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-10 text-slate-100">Resume</h2>
+        <h2 className="text-3xl font-bold mb-10 text-slate-100 text-center">Resume</h2>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="font-semibold text-[#1d9e75] mb-6 uppercase tracking-wide text-sm">Experience</h3>

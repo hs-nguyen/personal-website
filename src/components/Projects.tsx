@@ -19,7 +19,7 @@ const projects: Project[] = [
     color: "from-blue-500 to-cyan-400",
     category: "Container",
     featured: true,
-    title: "Bookshop Ecommerce Web App on AWS",
+    title: "Fullstack Ecommerce Bookshop App on AWS",
     desc: "Automated pneumonia detection from chest X-rays using deep learning. Achieved 95.21% accuracy with CNN architecture.",
     // stats: [
     //   { value: "95.21%", label: "Accuracy" },
@@ -46,7 +46,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 bg-[#090d12]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-2 text-slate-100">Projects ✍</h2>
+        <h2 className="text-3xl font-bold mb-2 text-slate-100 text-center">Personal Projects✍</h2>
         {/* <p className="text-slate-400 mb-10">Cloud infrastructure</p> */}
 
         <div className="grid md:grid-cols-3 gap-5">

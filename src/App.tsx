@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Certificates from "./components/Certificates";
 import Projects from "./components/Projects";
 // import Resume from "./components/Resume";
 import Connect from "./components/Connect";
@@ -14,6 +15,7 @@ export default function App() {
         <Home />
         <About />
         <Skills />
+        <Certificates />
         <Projects />
         {/* <Resume /> */}
         <Connect />

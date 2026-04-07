@@ -1,15 +1,15 @@
-const certs = [
-  {
-    name: "AWS Certified Solutions Architect - Associate",
-    img: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
-    href: "https://www.credly.com/earner/earned/badge/ac543051-df48-4015-8dd6-5057ba1fd99b",
-  },
-  {
-    name: "AWS Certified CloudOps Engineer - Associate",
-    img: "/cloudops-badge.png",
-    href: "https://www.credly.com/earner/earned/badge/f5f588f0-e04f-4f90-8415-42cd9f4d05f7",
-  },
-];
+// const certs = [
+//   {
+//     name: "AWS Certified Solutions Architect - Associate",
+//     img: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+//     href: "https://www.credly.com/earner/earned/badge/ac543051-df48-4015-8dd6-5057ba1fd99b",
+//   },
+//   {
+//     name: "AWS Certified CloudOps Engineer - Associate",
+//     img: "/cloudops-badge.png",
+//     href: "https://www.credly.com/earner/earned/badge/f5f588f0-e04f-4f90-8415-42cd9f4d05f7",
+//   },
+// ];
 
 const socials = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/nguyensangscom/", icon: <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> },
@@ -36,7 +36,7 @@ export default function Home() {
         style={{ background: "linear-gradient(to right, #1d9e75, #38c8e8)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
         Nguyễn Hữu Sáng
       </h1>
-      <p className="text-xl text-[#38c8e8] mb-4 animate-fade-up delay-100 relative z-10">Cloud Operations Engineer</p>
+      <p className="text-xl text-[#38c8e8] mb-4 animate-fade-up delay-100 relative z-10">Cloud Engineer</p>
       <p className="text-slate-400 max-w-xl mb-8 animate-fade-up delay-200 relative z-10">
         I design and build scalable cloud infrastructure on AWS — serverless architectures,
         container orchestration, CI/CD pipelines, and infrastructure as code.
@@ -52,14 +52,14 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Certs */}
+      {/* Certs
       <div className="flex gap-4 mb-8 animate-fade-up delay-400 relative z-10">
         {certs.map((c) => (
           <a key={c.name} href={c.href} target="_blank" rel="noreferrer" title={c.name} className="hover:scale-110 transition-transform">
             <img src={c.img} alt={c.name} className="w-20 h-20 drop-shadow-lg" />
           </a>
         ))}
-      </div>
+      </div> */}
 
       {/* Socials */}
       <div className="flex gap-5 animate-fade-up delay-500 relative z-10">

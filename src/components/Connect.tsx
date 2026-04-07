@@ -11,8 +11,8 @@ export default function Connect() {
   return (
     <section id="connect" className="py-24 px-6 bg-[#090d12]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-slate-100">Let's Connect</h2>
-        <p className="text-slate-400 mb-10">Have a project in mind or just want to say hi? Drop me a message.</p>
+        <h2 className="text-3xl font-bold mb-4 text-slate-100 text-center">Let's Connect</h2>
+        <p className="text-slate-400 mb-10 text-center">Have a project in mind or just want to say hi? Drop me a message.</p>
         <div className="grid md:grid-cols-2 gap-12">
           <form onSubmit={handleSubmit} className="space-y-4">
             {sent ? (
